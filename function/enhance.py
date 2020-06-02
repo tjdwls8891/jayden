@@ -4,7 +4,7 @@ from random import *
 from math import *
 
 
-filepath = "D:/디코봇/jayden/info_file/EnFile/%s.txt"
+filepath = "info_file/EnFile/%s.txt"
 
 
 def CreateItem(item, ID):
