@@ -121,5 +121,5 @@ async def on_reaction_add(reaction):
         # voinfo.write(info)
         voinfo.close()
 
-
-client.run("NjgxMDg3MjA1OTEyODcwOTYz.XlJXcw.puZfA5waUXERVowwZQopgaYJcNc")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
