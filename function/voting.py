@@ -21,7 +21,7 @@ def text(vvv):
 
 
 def main(message, vot_msg_ID, user_dis, user_men):
-    FilePath = "D:\디코봇\제이든\info_file\VoFile\%s.txt"
+    FilePath = "info_file\VoFile\%s.txt"
     re = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
     if message.content[4:6] != "종료":
         vot_info = voting(message)
