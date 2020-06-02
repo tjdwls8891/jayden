@@ -3,7 +3,7 @@ import math
 from function.msgCleanup import *
 # info = [레벨] [총 글자수]
 
-filepath = "D:/디코봇/jayden/info_file/LvFile/%s.txt"
+filepath = "info_file/LvFile/%s.txt"
 
 
 def ReadFile(ID):
