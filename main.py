@@ -2,7 +2,7 @@ from function.Import import *
 import discord
 
 client = discord.Client()
-svfilepath = "D:/디코봇/jayden/info_file/SvFile/%s.txt"
+svfilepath = "info_file/SvFile/%s.txt"
 
 
 @client.event
