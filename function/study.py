@@ -7,7 +7,7 @@ def yon(a):
 
 def Study(a):
     a = a[4:].split("/")
-    txt = open("info_file\colist.txt", 'a')
+    txt = open("info_file/colist.txt", 'a')
     jeyg = a[0] + ">" + a[1] + "\n"
     txt.write(jeyg)
     txt.close()
@@ -16,7 +16,7 @@ def Study(a):
 
 def Talk(a):
     a = a[4:]
-    txt = open("info_file\colist.txt", "r")
+    txt = open("info_file/colist.txt", "r")
     while True:
         rd = txt.readline()
         rd = rd.split(">")
