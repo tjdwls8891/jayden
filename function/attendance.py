@@ -3,7 +3,7 @@ import os
 from function.msgCleanup import *
 
 # [유저네임, 유저 아이디]
-filepath = "D:\디코봇\jayden\info_file\AtFile\%s.txt"
+filepath = "info_file\AtFile\%s.txt"
 
 
 def Createinfo(ID, msg):
