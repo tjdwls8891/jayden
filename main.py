@@ -188,7 +188,7 @@ def emoticon(key):
 
 # 아이템이 없을 때 아이템을 생성하는 함수
 def create_item(item, user_id):
-    En_info[user_id] = "%s 1"
+    En_info[user_id] = "%s 1" % item
     result = "🎉아이템 제작에 성공했습니다!   `" + item + "`   lv.0  ➡  lv.1🆙"
     return result
 
